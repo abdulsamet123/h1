@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E465A4F-8134-8FA1-7268-613E4FA3A6EC" name="user">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:32:30 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="FEA24230-04DD-32A7-BCCC-7EC0BE317297">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:32:41 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="E89F052C-C0CD-BD56-02EE-9C39803B6C03">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:32:41 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="06B7FB85-5E18-897F-439D-96605086D73A">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:32:42 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="3316A843-EBFF-85F5-D2AF-596B714433BE">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:32:42 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="1557992B-19B2-FE2F-C411-AA9EE5CD3455">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:32:42 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="role" id="2725D3DF-7053-06D8-A412-0FF9F48582F5">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:32:43 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF6BC0E3-6CEA-0488-1982-4FD4EF3A2B46" name="user PK">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:32:48 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FEA24230-04DD-32A7-BCCC-7EC0BE317297</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D0866E8F-5119-782D-E597-B0470355C35F" name="product">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:24:30 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C3848EEE-881B-A35D-FD64-7735B863757B">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:27:16 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="96F2E712-5D2F-3915-CA58-E8E6782893D5">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:27:16 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="picture" id="2BFD319A-16BB-13DB-AD0D-36C2C6394A17">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:27:17 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="E6EB42A6-1F4A-57C4-8A27-8B60025ED63C">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:27:17 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="category_id" id="FEA26C1A-7078-ECB7-69A1-CB57F8CEB0CD">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:27:17 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="AC089897-EE6A-4654-8B05-2AC9DEB4DDE8">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:36:56 UTC</createdTime>
+<generatorID>D49D64E2-0265-8E47-1965-417E206710B1</generatorID>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<referedAttribute>8A82F3E7-57ED-E259-1A28-403829F7462F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C24096E-9B30-0B19-869F-A62972A81E19" name="product PK">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:27:51 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3848EEE-881B-A35D-FD64-7735B863757B</attributeRef>
+<attributeRef>FEA26C1A-7078-ECB7-69A1-CB57F8CEB0CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

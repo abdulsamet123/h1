@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC48410A-B7CE-384E-C6A2-AD39FB40816F" name="review">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:29:57 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0E219C74-0CCD-D93F-DA7F-F0D1CD79B1BC">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:30:09 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="D0EE9939-892E-FF28-C53B-543AA811FCE1">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:30:09 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="653AE194-519D-EA63-CED3-70663FBD4830">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:30:10 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="DE6FF98C-1D05-8B43-4B7F-38E4A91BBE34">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:30:10 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stars" id="013FFD8F-B68C-D712-D2FD-F448F1F55626">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:30:10 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product_id" id="65964FAB-F9ED-B671-8519-084B81203A4A">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:30:10 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="B6B6799B-15D8-5605-D0C5-5FA6286F5B26">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:37:52 UTC</createdTime>
+<generatorID>875A4D0B-2F55-E5DA-3F49-36337F731227</generatorID>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<referedAttribute>FEA24230-04DD-32A7-BCCC-7EC0BE317297</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5DFE97A3-6573-77D0-F26F-C45A025F2EF6" name="review PK">
+<createdBy>SD Student</createdBy>
+<createdTime>2021-10-28 08:30:29 UTC</createdTime>
+<ownerDesignName>date</ownerDesignName>
+<engineerTo>
+<item key="94002708-1423-1170-7C8D-ACA1F435CD9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E219C74-0CCD-D93F-DA7F-F0D1CD79B1BC</attributeRef>
+<attributeRef>65964FAB-F9ED-B671-8519-084B81203A4A</attributeRef>
+<attributeRef>013FFD8F-B68C-D712-D2FD-F448F1F55626</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

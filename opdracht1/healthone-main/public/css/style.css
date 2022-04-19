@@ -1,0 +1,33 @@
+body {
+    background-color: #48dbfb;
+    background-image: linear-gradient(315deg, #48dbfb 0%, #d3d3d3 74%);
+
+}
+.container {
+    background-color: transparent;
+
+}
+
+.pull-right img-thumbnail {
+    margin-top: -10px;
+    margin-bottom: 10px
+}
+
+.header-row {
+    margin-top: 20px
+}
+
+.banner-img {
+    margin-bottom: 20px
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.product-img {
+    width: 70%;
+}
+.h{
+    color: black;
+}
